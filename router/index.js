@@ -10,6 +10,11 @@ const routes = [
         path: '/about',
         name: 'About',
         component: () => import('../src/components/About.vue')
+    },
+    {
+        path: '/integrantes',
+        name: 'Integrantes',
+        component: () => import('../src/components/Integrantes.vue')
     }
 ];
 const router = createRouter({
